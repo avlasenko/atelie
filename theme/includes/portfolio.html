@@ -17,7 +17,7 @@
                     <% } %>
                 </div>
                 <!-- /.row (nested) -->
-                <a href="${page.portfolio.buttonlink}" class="btn btn-dark">${page.portfolio.button}</a>
+                <!--<a href="${page.portfolio.buttonlink}" class="btn btn-dark">${page.portfolio.button}</a>-->
             </div>
             <!-- /.col-lg-10 -->
         </div>
@@ -37,32 +37,73 @@
             </div>
         </div>
         <div class="container">
+
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>${modal.title}</h2>
-                        <hr class="star-primary">
-                        <img src="${modal.image}" class="img-responsive img-centered" alt="">
-                        <p>${modal.text}</p>
-                        <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="${modal.link}">${modal.client}</a>
-                                </strong>
-                            </li>
-                            <li>Date:
-                                <strong><a href="${modal.link}">${modal.date}</a>
-                                </strong>
-                            </li>
-                            <li>Service:
-                                <strong><a href="${modal.link}">${modal.service}</a>
-                                </strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
+                <div class="col-md-3">
+                    <img class="crop-img"
+                         src="${modal.image1}"class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img class="crop-img"
+                         src="${modal.image2}"class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img class="crop-img"
+                         src="${modal.image3}"class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img class="crop-img"
+                         src="${modal.image4}"class="img-responsive img-centered" alt="">
+                </div>
+            </div>
+            <!--
+                this is the large image which is
+                on a row of its own.
+                I will change it source in the
+                javascript
+            -->
+            <div class="row">
+                <div class="col-md-12">
+                    <img id="bigImage-${modal.id}"
+                         class="large-img"
+                         src="${modal.image1}"class="img-responsive img-centered" alt="">
                 </div>
             </div>
         </div>
+
+        <script>
+            $(".crop-img").click(function(){
+                $("#bigImage-${modal.id}").attr('src',
+                        $(this).attr('src'));
+            });
+        </script>
+
+        <!--<div class="row">-->
+                <!--<div class="col-lg-8 col-lg-offset-2">-->
+                    <!--<div class="modal-body">-->
+                        <!--<h2>${modal.title}</h2>-->
+                        <!--<hr class="star-primary">-->
+                        <!--<img src="${modal.image}" class="img-responsive img-centered" alt="">-->
+                        <!--<p>${modal.text}</p>-->
+                        <!--<ul class="list-inline item-details">-->
+                            <!--<li>Client:-->
+                                <!--<strong><a href="${modal.link}">${modal.client}</a>-->
+                                <!--</strong>-->
+                            <!--</li>-->
+                            <!--<li>Date:-->
+                                <!--<strong><a href="${modal.link}">${modal.date}</a>-->
+                                <!--</strong>-->
+                            <!--</li>-->
+                            <!--<li>Service:-->
+                                <!--<strong><a href="${modal.link}">${modal.service}</a>-->
+                                <!--</strong>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                        <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
     </div>
 </div>
 <% } %>

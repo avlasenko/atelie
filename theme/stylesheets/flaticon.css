@@ -1,0 +1,616 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon.eot");
+	src: url("../fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.woff") format("woff"),
+	url("../fonts/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 70px;
+font-style: normal;
+margin-left: 0px;
+}.flaticon-bikini1:before {
+	content: "\e000";
+}
+.flaticon-bikini2:before {
+	content: "\e001";
+}
+.flaticon-bikini3:before {
+	content: "\e002";
+}
+.flaticon-bikini4:before {
+	content: "\e003";
+}
+.flaticon-blush:before {
+	content: "\e004";
+}
+.flaticon-bottle12:before {
+	content: "\e005";
+}
+.flaticon-bottle13:before {
+	content: "\e006";
+}
+.flaticon-bottle14:before {
+	content: "\e007";
+}
+.flaticon-bottle15:before {
+	content: "\e008";
+}
+.flaticon-bottle16:before {
+	content: "\e009";
+}
+.flaticon-bow2:before {
+	content: "\e00a";
+}
+.flaticon-button3:before {
+	content: "\e00b";
+}
+.flaticon-camera48:before {
+	content: "\e00c";
+}
+.flaticon-cat12:before {
+	content: "\e00d";
+}
+.flaticon-childish:before {
+	content: "\e00e";
+}
+.flaticon-chop:before {
+	content: "\e00f";
+}
+.flaticon-circular67:before {
+	content: "\e010";
+}
+.flaticon-classic8:before {
+	content: "\e011";
+}
+.flaticon-clip8:before {
+	content: "\e012";
+}
+.flaticon-clothes11:before {
+	content: "\e013";
+}
+.flaticon-clothes12:before {
+	content: "\e014";
+}
+.flaticon-clothes13:before {
+	content: "\e015";
+}
+.flaticon-clothes14:before {
+	content: "\e016";
+}
+.flaticon-clothes15:before {
+	content: "\e017";
+}
+.flaticon-clothing3:before {
+	content: "\e018";
+}
+.flaticon-clothing4:before {
+	content: "\e019";
+}
+.flaticon-cologne:before {
+	content: "\e01a";
+}
+.flaticon-comb1:before {
+	content: "\e01b";
+}
+.flaticon-cord1:before {
+	content: "\e01c";
+}
+.flaticon-cord2:before {
+	content: "\e01d";
+}
+.flaticon-couture:before {
+	content: "\e01e";
+}
+.flaticon-creme:before {
+	content: "\e01f";
+}
+.flaticon-curling1:before {
+	content: "\e020";
+}
+.flaticon-cylindrical3:before {
+	content: "\e021";
+}
+.flaticon-dangling:before {
+	content: "\e022";
+}
+.flaticon-diamond21:before {
+	content: "\e023";
+}
+.flaticon-diamond22:before {
+	content: "\e024";
+}
+.flaticon-dice7:before {
+	content: "\e025";
+}
+.flaticon-dress1:before {
+	content: "\e026";
+}
+.flaticon-dress2:before {
+	content: "\e027";
+}
+.flaticon-dress3:before {
+	content: "\e028";
+}
+.flaticon-dress4:before {
+	content: "\e029";
+}
+.flaticon-electric22:before {
+	content: "\e02a";
+}
+.flaticon-engagement:before {
+	content: "\e02b";
+}
+.flaticon-eye53:before {
+	content: "\e02c";
+}
+.flaticon-eyebrow:before {
+	content: "\e02d";
+}
+.flaticon-eyeglasses4:before {
+	content: "\e02e";
+}
+.flaticon-eyeglasses5:before {
+	content: "\e02f";
+}
+.flaticon-eyeglasses6:before {
+	content: "\e030";
+}
+.flaticon-eyeglasses7:before {
+	content: "\e031";
+}
+.flaticon-eyeliner:before {
+	content: "\e032";
+}
+.flaticon-eyes2:before {
+	content: "\e033";
+}
+.flaticon-eyes3:before {
+	content: "\e034";
+}
+.flaticon-fashionable:before {
+	content: "\e035";
+}
+.flaticon-female79:before {
+	content: "\e036";
+}
+.flaticon-female80:before {
+	content: "\e037";
+}
+.flaticon-female81:before {
+	content: "\e038";
+}
+.flaticon-female82:before {
+	content: "\e039";
+}
+.flaticon-female83:before {
+	content: "\e03a";
+}
+.flaticon-female84:before {
+	content: "\e03b";
+}
+.flaticon-female85:before {
+	content: "\e03c";
+}
+.flaticon-female86:before {
+	content: "\e03d";
+}
+.flaticon-female87:before {
+	content: "\e03e";
+}
+.flaticon-female88:before {
+	content: "\e03f";
+}
+.flaticon-female89:before {
+	content: "\e040";
+}
+.flaticon-female90:before {
+	content: "\e041";
+}
+.flaticon-female92:before {
+	content: "\e042";
+}
+.flaticon-female94:before {
+	content: "\e043";
+}
+.flaticon-female95:before {
+	content: "\e044";
+}
+.flaticon-female96:before {
+	content: "\e045";
+}
+.flaticon-female97:before {
+	content: "\e046";
+}
+.flaticon-female98:before {
+	content: "\e047";
+}
+.flaticon-female99:before {
+	content: "\e048";
+}
+.flaticon-feminine:before {
+	content: "\e049";
+}
+.flaticon-flower25:before {
+	content: "\e04a";
+}
+.flaticon-fountain1:before {
+	content: "\e04b";
+}
+.flaticon-glasses10:before {
+	content: "\e04c";
+}
+.flaticon-glasses11:before {
+	content: "\e04d";
+}
+.flaticon-glasses12:before {
+	content: "\e04e";
+}
+.flaticon-glasses14:before {
+	content: "\e04f";
+}
+.flaticon-glasses15:before {
+	content: "\e050";
+}
+.flaticon-hair3:before {
+	content: "\e051";
+}
+.flaticon-hair4:before {
+	content: "\e052";
+}
+.flaticon-hair5:before {
+	content: "\e053";
+}
+.flaticon-hair6:before {
+	content: "\e054";
+}
+.flaticon-hair7:before {
+	content: "\e055";
+}
+.flaticon-half15:before {
+	content: "\e056";
+}
+.flaticon-hand43:before {
+	content: "\e057";
+}
+.flaticon-handbag12:before {
+	content: "\e058";
+}
+.flaticon-handbag13:before {
+	content: "\e059";
+}
+.flaticon-heart78:before {
+	content: "\e05a";
+}
+.flaticon-heart79:before {
+	content: "\e05b";
+}
+.flaticon-heart80:before {
+	content: "\e05c";
+}
+.flaticon-hobo1:before {
+	content: "\e05d";
+}
+.flaticon-hobo:before {
+	content: "\e05e";
+}
+.flaticon-human43:before {
+	content: "\e05f";
+}
+.flaticon-jacket2:before {
+	content: "\e060";
+}
+.flaticon-jar6:before {
+	content: "\e061";
+}
+.flaticon-lace:before {
+	content: "\e062";
+}
+.flaticon-lacquer:before {
+	content: "\e063";
+}
+.flaticon-lipstick1:before {
+	content: "\e064";
+}
+.flaticon-lipstick:before {
+	content: "\e065";
+}
+.flaticon-liquid:before {
+	content: "\e066";
+}
+.flaticon-long10:before {
+	content: "\e067";
+}
+.flaticon-long7:before {
+	content: "\e068";
+}
+.flaticon-long8:before {
+	content: "\e069";
+}
+.flaticon-long9:before {
+	content: "\e06a";
+}
+.flaticon-make:before {
+	content: "\e06b";
+}
+.flaticon-makeup1:before {
+	content: "\e06c";
+}
+.flaticon-makeup:before {
+	content: "\e06d";
+}
+.flaticon-male96:before {
+	content: "\e06e";
+}
+.flaticon-mannequin1:before {
+	content: "\e06f";
+}
+.flaticon-maracas2:before {
+	content: "\e070";
+}
+.flaticon-mascara1:before {
+	content: "\e071";
+}
+.flaticon-mascara:before {
+	content: "\e072";
+}
+.flaticon-mirror:before {
+	content: "\e073";
+}
+.flaticon-nail:before {
+	content: "\e074";
+}
+.flaticon-necklace:before {
+	content: "\e075";
+}
+.flaticon-needle1:before {
+	content: "\e076";
+}
+.flaticon-needle2:before {
+	content: "\e077";
+}
+.flaticon-needle3:before {
+	content: "\e078";
+}
+.flaticon-needles:before {
+	content: "\e079";
+}
+.flaticon-open100:before {
+	content: "\e07a";
+}
+.flaticon-oval4:before {
+	content: "\e07b";
+}
+.flaticon-paint36:before {
+	content: "\e07c";
+}
+.flaticon-parfum1:before {
+	content: "\e07d";
+}
+.flaticon-parfum2:before {
+	content: "\e07e";
+}
+.flaticon-parfum3:before {
+	content: "\e07f";
+}
+.flaticon-parfum4:before {
+	content: "\e080";
+}
+.flaticon-parfum:before {
+	content: "\e081";
+}
+.flaticon-pearls:before {
+	content: "\e082";
+}
+.flaticon-pearl:before {
+	content: "\e083";
+}
+.flaticon-perdible:before {
+	content: "\e084";
+}
+.flaticon-perfume1:before {
+	content: "\e085";
+}
+.flaticon-perfume2:before {
+	content: "\e086";
+}
+.flaticon-perfume3:before {
+	content: "\e087";
+}
+.flaticon-perfume:before {
+	content: "\e088";
+}
+.flaticon-personal6:before {
+	content: "\e089";
+}
+.flaticon-pin23:before {
+	content: "\e08a";
+}
+.flaticon-pin24:before {
+	content: "\e08b";
+}
+.flaticon-pins92:before {
+	content: "\e08c";
+}
+.flaticon-plump:before {
+	content: "\e08d";
+}
+.flaticon-pocket2:before {
+	content: "\e08e";
+}
+.flaticon-polo:before {
+	content: "\e08f";
+}
+.flaticon-pouch1:before {
+	content: "\e090";
+}
+.flaticon-purse2:before {
+	content: "\e091";
+}
+.flaticon-reading11:before {
+	content: "\e092";
+}
+.flaticon-reading12:before {
+	content: "\e093";
+}
+.flaticon-rectangular27:before {
+	content: "\e094";
+}
+.flaticon-rectangular28:before {
+	content: "\e095";
+}
+.flaticon-rectangular30:before {
+	content: "\e096";
+}
+.flaticon-rectangular34:before {
+	content: "\e097";
+}
+.flaticon-rectangular35:before {
+	content: "\e098";
+}
+.flaticon-rectangular36:before {
+	content: "\e099";
+}
+.flaticon-ribbon20:before {
+	content: "\e09a";
+}
+.flaticon-ring10:before {
+	content: "\e09b";
+}
+.flaticon-ring9:before {
+	content: "\e09c";
+}
+.flaticon-round44:before {
+	content: "\e09d";
+}
+.flaticon-round46:before {
+	content: "\e09e";
+}
+.flaticon-safety:before {
+	content: "\e09f";
+}
+.flaticon-scarf:before {
+	content: "\e0a0";
+}
+.flaticon-scissor4:before {
+	content: "\e0a1";
+}
+.flaticon-scissors15:before {
+	content: "\e0a2";
+}
+.flaticon-security12:before {
+	content: "\e0a3";
+}
+.flaticon-sewing5:before {
+	content: "\e0a4";
+}
+.flaticon-sewing6:before {
+	content: "\e0a5";
+}
+.flaticon-sewing7:before {
+	content: "\e0a6";
+}
+.flaticon-sexy2:before {
+	content: "\e0a7";
+}
+.flaticon-sexy3:before {
+	content: "\e0a8";
+}
+.flaticon-shoulder3:before {
+	content: "\e0a9";
+}
+.flaticon-shoulder4:before {
+	content: "\e0aa";
+}
+.flaticon-skirt1:before {
+	content: "\e0ab";
+}
+.flaticon-skirt2:before {
+	content: "\e0ac";
+}
+.flaticon-skirt3:before {
+	content: "\e0ad";
+}
+.flaticon-skirt:before {
+	content: "\e0ae";
+}
+.flaticon-spherical1:before {
+	content: "\e0af";
+}
+.flaticon-star64:before {
+	content: "\e0b0";
+}
+.flaticon-star66:before {
+	content: "\e0b1";
+}
+.flaticon-strapless:before {
+	content: "\e0b2";
+}
+.flaticon-string:before {
+	content: "\e0b3";
+}
+.flaticon-stylish10:before {
+	content: "\e0b4";
+}
+.flaticon-stylish11:before {
+	content: "\e0b5";
+}
+.flaticon-stylish12:before {
+	content: "\e0b6";
+}
+.flaticon-stylish8:before {
+	content: "\e0b7";
+}
+.flaticon-stylish9:before {
+	content: "\e0b8";
+}
+.flaticon-swimsuit1:before {
+	content: "\e0b9";
+}
+.flaticon-swimsuit:before {
+	content: "\e0ba";
+}
+.flaticon-thick15:before {
+	content: "\e0bb";
+}
+.flaticon-thread1:before {
+	content: "\e0bc";
+}
+.flaticon-thread2:before {
+	content: "\e0bd";
+}
+.flaticon-thread3:before {
+	content: "\e0be";
+}
+.flaticon-thread:before {
+	content: "\e0bf";
+}
+.flaticon-tools5:before {
+	content: "\e0c0";
+}
+.flaticon-tshirt15:before {
+	content: "\e0c1";
+}
+.flaticon-tube:before {
+	content: "\e0c2";
+}
+.flaticon-wallet9:before {
+	content: "\e0c3";
+}
+.flaticon-wheel11:before {
+	content: "\e0c4";
+}
+.flaticon-yarn1:before {
+	content: "\e0c5";
+}
+.flaticon-zip4:before {
+	content: "\e0c6";
+}
+.flaticon-zipper1:before {
+	content: "\e0c7";
+}

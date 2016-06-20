@@ -38,13 +38,13 @@ environments {
 }
 
 python {
-    interpreter = 'jython' // 'auto', 'python', 'jython'
+    interpreter = 'auto' // 'auto', 'python', 'jython'
     //cmd_candidates = ['python2', 'python', 'python2.7']
     //setup_tools = '2.1'
 }
 
 ruby {
-    interpreter = 'jruby'   // 'auto', 'ruby', 'jruby'
+    interpreter = 'auto'   // 'auto', 'ruby', 'jruby'
     //cmd_candidates = ['ruby', 'ruby1.8.7', 'ruby1.9.3', 'user.home/.rvm/bin/ruby']
     //ruby_gems = '2.2.2'
 }
@@ -53,8 +53,12 @@ ruby {
 s3_bucket = '' // your S3 bucket name
 deploy_s3 = "s3cmd sync --acl-public --reduced-redundancy ${destination_dir}/ s3://${s3_bucket}/"
 
+rsync_ssh_user = 'sysgvla4@lanafd.com'
+rsync_document_root = '~/public_html/lanafd.com'
+rsync_deploy_cmd = "rsync -avze ssh --delete ${destination_dir}/ ${rsync_ssh_user}:${rsync_document_root}"
+
 gh_pages_url = '' // path to GitHub repository in format git@github.com:{username}/{repo}.git
-deploy = new GHPagesDeployer(site).deploy
+deploy = rsync_deploy_cmd
 
 // Custom commands-line commands.
 commands = [

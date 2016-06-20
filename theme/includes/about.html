@@ -1,11 +1,29 @@
 <!-- About -->
-<section id="about" class="about">
+<section id="about" class="portfolio">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-md-12 text-center">
                 <h2>${page.about.title}</h2>
-                <p class="lead">${page.about.text}</p>
+                <hr class="small">
             </div>
+                    <div class="col-md-5">
+                        <p class="lead">${page.about.text}</p>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="portfolio-item">
+                            <img class="img-about img-responsive" src="${page.about.foto}">
+                        </div>
+                    </div>
+
+                <!-- /.row (nested) -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                <a href="${page.about.buttonlink}" class="btn btn-dark btn-lg">${page.about.button}</a>
+                </div>
+            </div>
+
+
+            <!-- /.col-lg-10 -->
         </div>
         <!-- /.row -->
     </div>

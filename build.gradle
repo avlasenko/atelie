@@ -92,6 +92,13 @@ task generate(type: JavaExec) {
     args name
 }
 
+task deploy(type: JavaExec) {
+    logging.captureStandardOutput LogLevel.INFO
+    classpath sourceSets.main.runtimeClasspath
+    main = mainClassName
+    args name
+}
+
 task preview(type: JavaExec) {
     classpath sourceSets.main.runtimeClasspath
     main = mainClassName
